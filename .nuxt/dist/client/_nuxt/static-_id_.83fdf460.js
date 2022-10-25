@@ -1,1 +1,0 @@
-import{e as t,f as a,o as s,b as o,t as n,u as r}from"./entry.925bcaa8.js";const d={__name:"static-[id]",setup(c){const e=t("static",()=>0);return a(()=>{e.value++}),(l,u)=>(s(),o("div",null," Child reloaded: "+n(r(e)),1))}};export{d as default};

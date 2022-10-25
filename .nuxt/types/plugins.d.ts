@@ -12,7 +12,8 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/router").default> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server").default> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.client").default> &
-  InjectionType<typeof import("../unocss").default>
+  InjectionType<typeof import("../unocss").default> &
+  InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/payload.client").default>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
