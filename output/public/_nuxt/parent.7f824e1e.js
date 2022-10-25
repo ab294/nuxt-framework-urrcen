@@ -1,0 +1,1 @@
+import{a as t,o as n,b as o,h as a,i as c,j as r}from"./entry.925bcaa8.js";const _={};function s(p,d){const e=r;return n(),o("div",null,[a(" Parent "),c(e)])}const l=t(_,[["render",s]]);export{l as default};
